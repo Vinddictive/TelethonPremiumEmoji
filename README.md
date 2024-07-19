@@ -1,12 +1,12 @@
-This is example how to send a message with a premium emoji using Telethon in Python.
+This is example how to send a message with a premium emoji using Telethon.
 
 
-## Usage
+## Example - How to send messages with Premium Emojis
 ```python
 from telethon import TelegramClient
-from xtelethon import CustomParseMode  # TODO: Call the custom class
+from xtelethon import CustomParseMode  # TODO: Call the class from custom module
 
-# TODO: Change with your own values
+# Change with your own values
 API_ID = 12345678
 API_HASH = 'x393637bjp62c7b.........'
 SESSION = 'my_session.session'
@@ -33,7 +33,7 @@ with client:
 from telethon import TelegramClient, events
 from telethon.tl.types import MessageEntityCustomEmoji
 
-# TODO: Replace the placeholders with your own values
+# Replace the placeholders with your own values
 API_ID = 98765432
 API_HASH = 'x17f7ce903s17bxf3......'
 SESSION = 'my_telethon_session.session'
